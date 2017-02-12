@@ -23,8 +23,8 @@ public class MainGame implements KeyListener, AudioClip {
     int paddle[] = new int[4];
     int ball[] = new int[4];
 
-    int pvX;
-    int bvX, bvY;
+    int pvX; // Paddlegeschwindigkeit
+    int bvX, bvY; // Ballgeschwindigkeit in X und Y Richtung
     //InputStream is = new InputStream();
     //AudioInputStream as = new AudioInputStream();
     //com.sun.media.sound.JavaSoundAudioClip
