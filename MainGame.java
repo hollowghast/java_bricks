@@ -77,9 +77,9 @@ public class MainGame implements KeyListener, AudioClip {
         System.out.println(frame.getHeight());
         */
         
-        int lifes = 3;
-        while (lifes > 0) { // GameLoop
-            lifes -= gLoop();
+        int lives = 3;
+        while (lives > 0) { // GameLoop
+            lives -= gLoop();
         }
 
     }
